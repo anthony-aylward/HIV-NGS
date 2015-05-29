@@ -62,7 +62,7 @@ end
 #---------------------------------countmsa-------------------------------------#
 
 # Define a function to count, for each character of an alphabet, the number
-# of times that character appears in each sequence of an MSA file.
+# of samples in which character appears at each locus in an MSA file.
 
 function countmsa(msa::String, alphabet::String)
 
